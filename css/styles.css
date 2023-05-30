@@ -1,0 +1,137 @@
+#title {
+    background-color:#ff4c68;
+    color:#FFFFFF;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+p {
+    color: #8f8f8f;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid {
+    padding: 3% 15% 7% ;
+}
+.navbar {
+    font-size: 16x;
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: 700;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.download-btn {
+    margin : 5% 3% 5% 0;
+}
+.title-image {
+    height:80%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+.sec-icon {
+    margin-bottom: 1rem;
+    color:#ef8172;
+}
+.sec-icon:hover {
+    color: #ff4c68;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 13%;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.footer-logo {
+    margin : 0 3.5% 5% 3.5%;
+}
+#cta-btn {
+    margin : 5% 3% 5% 0;
+    padding: 1.5% 3%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+#cta-heading{
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #fff;
+}
+#footer {
+    background-color: #fff;
+    color: #8f8f8f;
+    padding: 3`% 15%;
+    text-align: center;
+}
+@media (max-width:1179px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
